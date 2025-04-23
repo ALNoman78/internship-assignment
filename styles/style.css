@@ -107,7 +107,7 @@ nav {
 
 /* brand collaboration */
 .container {
-    padding: 128px 64px;
+    padding: 68px 112px;
     display: flex;
     flex-direction: column;
     background: #F8FAFC;
@@ -129,6 +129,17 @@ nav {
 /* feature section styles */
 .section {
     max-width: 1440px;
+    margin: 0 auto;
+    padding: 64px 0;
+    text-align: center;
+}
+
+.section h2{
+    font-size: 36px;
+}
+
+.section > p{
+    width: 50%;
     margin: 0 auto;
 }
 
@@ -165,7 +176,7 @@ nav {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
-    padding: 30px;
+    padding: 64px 112px;
     border-radius: 10px;
 }
 
@@ -256,7 +267,7 @@ nav {
 
 .stat h3 {
     color: #5a55ff;
-    font-size: 28px;
+    font-size: 60px;
     margin-bottom: 8px;
 }
 
@@ -266,6 +277,7 @@ nav {
     color: #333;
     margin: 0;
 }
+
 
 /* procrastination section */
 .procrast-container {
@@ -770,7 +782,8 @@ hr {
     .p-7,
     .office-grid,
     .faq-container,
-    .footer-container {
+    .footer-container,
+    .features-grid {
         padding: 20px;
     }
 
@@ -833,5 +846,10 @@ hr {
 
     .heading-section {
         padding-bottom: 60px;
+    }
+    .section > p{
+        width: 100%;
+        font-size: 14px;
+        padding: 8px;
     }
 }
