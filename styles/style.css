@@ -618,9 +618,9 @@ nav {
     transition: transform 0.3s ease;
 }
 
-.accordion-header.active i {
+/* .accordion-header.active i {
     transform: rotate(180deg);
-}
+} */
 
 .accordion-body {
     padding: 0 10px 20px 34px;
@@ -735,7 +735,7 @@ nav {
 
 .footer {
     background: #f9f9fb;
-    padding: 60px 20px 20px;
+    padding: 60px 20px;
     font-family: 'Inter', sans-serif;
 }
 
@@ -944,8 +944,8 @@ hr {
 
     .heading-absolute {
         position: absolute;
-        top: 44%;
-        right: -5%;
+        top: 77%;
+        right: 13%;
         width: 40%;
     }
 
