@@ -16,24 +16,56 @@
 /* nav styles */
 nav {
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    padding: 24px 112px;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo-nav img {
+    height: 40px;
 }
 
 .navigation-list {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    list-style-type: none;
-    gap: 24px;
+    list-style: none;
+    gap: 2rem;
 }
 
-.navigation-list a {
-    color: #475569;
+.navigation-list li a {
     text-decoration: none;
-    font-weight: bold;
+    color: #333;
+    font-weight: 500;
 }
+
+.button {
+    padding: 0.5rem 1rem;
+    margin-left: 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+.outline {
+    background: transparent;
+    border: 2px solid #333;
+    color: #333;
+}
+
+.login-btn {
+    background-color: #333;
+    color: white;
+}
+
+.hamburger {
+    display: none;
+    height: 30px;
+    cursor: pointer;
+}
+
+/* @media (max-width: 768px) {
+    
+} */
 
 .button {
     padding: 13px 20px;
@@ -134,11 +166,11 @@ nav {
     text-align: center;
 }
 
-.section h2{
+.section h2 {
     font-size: 36px;
 }
 
-.section > p{
+.section>p {
     width: 50%;
     margin: 0 auto;
 }
@@ -375,6 +407,13 @@ nav {
     display: flex;
     flex-direction: column;
     gap: 12px;
+    width: 520px;
+}
+
+.row-span {
+    grid-row: span 2;
+    height: 320px;
+    width: 520px;
 }
 
 .stars {
@@ -757,6 +796,32 @@ hr {
         width: 100%;
     }
 
+    .navigation-list {
+        display: none;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        background: white;
+        flex-direction: column;
+        gap: 1rem;
+        padding: 1rem 2rem;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .navigation-list.active {
+        display: flex;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    nav>div:last-child {
+        display: flex;
+        align-items: center;
+    }
+
     .heading-text p {
         font-size: 14px;
     }
@@ -847,9 +912,18 @@ hr {
     .heading-section {
         padding-bottom: 60px;
     }
-    .section > p{
+
+    .section>p {
         width: 100%;
         font-size: 14px;
         padding: 8px;
+    }
+
+    .card {
+        width: auto;
+    }
+
+    .row-span {
+        height: auto;
     }
 }

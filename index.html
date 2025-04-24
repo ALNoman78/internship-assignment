@@ -17,20 +17,21 @@
 
 <body>
     <header>
-        <nav class="">
+        <nav>
             <div class="logo-nav">
-                <img src="./asstes/Logo.png" alt="">
+                <img src="./asstes/Logo.png" alt="Logo" />
             </div>
             <ul class="navigation-list">
                 <li><a href="#">Features</a></li>
-                <li><a href="">Achievements</a></li>
-                <li><a href="">Testimonials</a></li>
-                <li><a href="">FAQ</a></li>
+                <li><a href="#">Achievements</a></li>
+                <li><a href="#">Testimonials</a></li>
+                <li><a href="#">FAQ</a></li>
+                
             </ul>
             <div>
                 <button class="button outline">Sign Up</button>
                 <button class="button login-btn">Log in</button>
-                <img class="hidden " src="./asstes/Button Icon.png" alt="">
+                <img class="hamburger" src="./asstes/Button Icon.png" alt="Menu" onclick="toggleMenu()" />
             </div>
         </nav>
     </header>
@@ -78,69 +79,69 @@
         <!-- feature section -->
         <div class="section">
             <!-- <div class="section-header"> -->
-                <span class="tag">Our Main Features</span>
-                <h2>Our Primary Features</h2>
-                <p>
-                    Volutpat commodo sed egestas egestas fringilla phasellus. Tincidunt eget nullam non nisi.
-                    Nisi porta lorem mollis aliquam ut porttitor leo.
-                </p>
+            <span class="tag">Our Main Features</span>
+            <h2>Our Primary Features</h2>
+            <p>
+                Volutpat commodo sed egestas egestas fringilla phasellus. Tincidunt eget nullam non nisi.
+                Nisi porta lorem mollis aliquam ut porttitor leo.
+            </p>
+        </div>
+
+        <div class="features-grid">
+            <div class="feature">
+                <div class="feature-icon">
+                    <img src="./asstes/Lightning.png" alt="">
+                </div>
+                <h3>Lazy Efficient</h3>
+                <p>A cras semper auctor neque. Proin libero nunc consequat interdum varius sit. Libero volutpat sed
+                    cras ornare arcu dui vivamus arcu felis.</p>
             </div>
 
-            <div class="features-grid">
-                <div class="feature">
-                    <div class="feature-icon">
-                        <img src="./asstes/Lightning.png" alt="">
-                    </div>
-                    <h3>Lazy Efficient</h3>
-                    <p>A cras semper auctor neque. Proin libero nunc consequat interdum varius sit. Libero volutpat sed
-                        cras ornare arcu dui vivamus arcu felis.</p>
+            <div class="feature">
+                <div class="feature-icon">
+                    <img src="./asstes/GearSix.png" alt="">
                 </div>
-
-                <div class="feature">
-                    <div class="feature-icon">
-                        <img src="./asstes/GearSix.png" alt="">
-                    </div>
-                    <h3>Streamlined Process</h3>
-                    <p>Montes nascetur ridiculus mus mauris vitae ultricies leo integer malesuada. Orci porta non
-                        pulvinar neque laoreet.</p>
-                </div>
-
-                <div class="feature">
-                    <div class="feature-icon">
-                        <img src="./asstes/Broom.png" alt="">
-                    </div>
-                    <h3>Minimum Effort</h3>
-                    <p>Tincidunt eget nullam non nisi est sit amet facilisis magna. Rhoncus dolor purus non enim
-                        praesent elementum.</p>
-                </div>
-
-                <div class="feature">
-                    <div class="feature-icon">
-                        <img src="./asstes/ChartLine.png" alt="">
-                    </div>
-                    <h3>Absolutely Easy To Use</h3>
-                    <p>Rutrum quisque non tellus orci ac. Purus viverra accumsan in nisl. Id interdum velit laoreet id
-                        donec ultrices adisipicing elit.</p>
-                </div>
-
-                <div class="feature">
-                    <div class="feature-icon">
-                        <img src="./asstes/BowlFood.png" alt="">
-                    </div>
-                    <h3>Just Sleep & Chill</h3>
-                    <p>Bibendum est ultricies integer quis auctor elit. Ultrices in iaculis nunc sed. A scelerisque
-                        purus semper eget. Facilisi morbi tempus iaculi.</p>
-                </div>
-
-                <div class="feature">
-                    <div class="feature-icon">
-                        <img src="./asstes/SmileyWink.png" alt="">
-                    </div>
-                    <h3>Don’t Worry About Life</h3>
-                    <p>Pharetra diam sit amet nisl suscipit adipiscing bibendum est. Risus ultricies tristique nulla
-                        aliquet enim tortor.</p>
-                </div>
+                <h3>Streamlined Process</h3>
+                <p>Montes nascetur ridiculus mus mauris vitae ultricies leo integer malesuada. Orci porta non
+                    pulvinar neque laoreet.</p>
             </div>
+
+            <div class="feature">
+                <div class="feature-icon">
+                    <img src="./asstes/Broom.png" alt="">
+                </div>
+                <h3>Minimum Effort</h3>
+                <p>Tincidunt eget nullam non nisi est sit amet facilisis magna. Rhoncus dolor purus non enim
+                    praesent elementum.</p>
+            </div>
+
+            <div class="feature">
+                <div class="feature-icon">
+                    <img src="./asstes/ChartLine.png" alt="">
+                </div>
+                <h3>Absolutely Easy To Use</h3>
+                <p>Rutrum quisque non tellus orci ac. Purus viverra accumsan in nisl. Id interdum velit laoreet id
+                    donec ultrices adisipicing elit.</p>
+            </div>
+
+            <div class="feature">
+                <div class="feature-icon">
+                    <img src="./asstes/BowlFood.png" alt="">
+                </div>
+                <h3>Just Sleep & Chill</h3>
+                <p>Bibendum est ultricies integer quis auctor elit. Ultrices in iaculis nunc sed. A scelerisque
+                    purus semper eget. Facilisi morbi tempus iaculi.</p>
+            </div>
+
+            <div class="feature">
+                <div class="feature-icon">
+                    <img src="./asstes/SmileyWink.png" alt="">
+                </div>
+                <h3>Don’t Worry About Life</h3>
+                <p>Pharetra diam sit amet nisl suscipit adipiscing bibendum est. Risus ultricies tristique nulla
+                    aliquet enim tortor.</p>
+            </div>
+        </div>
         </div>
         <!-- acheivement section -->
         <section class="lazy-efficiency">
@@ -208,7 +209,7 @@
         </section>
         <!-- testimonita section -->
         <div class="testimonials">
-            <div class="card">
+            <div class="card row-span">
                 <div class="stars">★★★★★</div>
                 <div class="testimonial-text">
                     Lorem ipsum dolor sit amet, consectetur ad-zzz-ing elit. Proin vel urna at metus tempor mattis, or
@@ -223,7 +224,7 @@
                 </div>
             </div>
 
-            <div class="card">
+            <div class="card ">
                 <div class="stars">★★★★★</div>
                 <div class="testimonial-text">
                     Posuere urna nec tincidunt praesent semper feugiat nibh sed. Velit dignissim sodales eu ut.
@@ -237,7 +238,7 @@
                 </div>
             </div>
 
-            <div class="card">
+            <div class="card row-span">
                 <div class="stars">★★★★★</div>
                 <div class="testimonial-text">
                     Sit amet est placerat in. Blandit cursus risus at ultrices mi tempus imperdiet. Vulputate commodo
@@ -252,7 +253,7 @@
                 </div>
             </div>
 
-            <div class="card">
+            <div class="card row-span">
                 <div class="stars">★★★★★</div>
                 <div class="testimonial-text">
                     Nisi porta lorem mollis aliquam ut porttitor leo. Sed odio morbi quis commodo. Arcu non odio euismod
@@ -296,11 +297,11 @@
                     </div>
                 </div>
             </div>
-
-            <div class="card">
-                <div class="stars">★★★☆☆</div>
+            <div class="card ">
+                <div class="stars">★★★★★</div>
                 <div class="testimonial-text">
-                    Sagittis eu volutpat odio facilisis mauris sit amet massa. Urna et pharetra pharetra massa.
+                    Nisi porta lorem mollis aliquam ut porttitor leo. Sed odio morbi quis commodo. Arcu non odio euismod
+                    lacinia at quis.
                 </div>
                 <div class="user">
                     <img src="https://i.pravatar.cc/32?img=7" alt="avatar">
@@ -311,11 +312,11 @@
                 </div>
             </div>
 
-            <div class="card">
+            <div class="card row-span">
                 <div class="stars">★★★★★</div>
                 <div class="testimonial-text">
-                    Cras fermentum odio eu feugiat pretium nibh ipsum consequat nisl. Nec nam aliquam sem et tortor
-                    consequat id porta nibh.
+                    Accumsan tortor posuere ac ut consequat. Quis varius quam quisque id diam vel. Vel pharetra vel
+                    turpis nunc eget.
                 </div>
                 <div class="user">
                     <img src="https://i.pravatar.cc/32?img=8" alt="avatar">
@@ -327,9 +328,10 @@
             </div>
 
             <div class="card">
-                <div class="stars">★★★★★</div>
+                <div class="stars">★★★★☆</div>
                 <div class="testimonial-text">
-                    Viverra accumsan in nisl nisi scelerisque eu. Vitae congue eu consequat ac felis donec.
+                    Venenantis cras sed felis eget velit aliquet. Velit scelerisque in dictum non consectetur. Felis
+                    eget velit aliquet sagittis.
                 </div>
                 <div class="user">
                     <img src="https://i.pravatar.cc/32?img=9" alt="avatar">
@@ -339,6 +341,15 @@
                     </div>
                 </div>
             </div>
+
+            <!-- <div class="card ">
+                <div class="stars">★★★☆☆</div>
+                <div class="testimonial-text">
+                    Sagittis eu volutpat odio facilisis mauris sit amet massa. Urna et pharetra pharetra massa.
+                </div>
+                
+            </div> -->
+
         </div>
         <!-- location section -->
         <section class="office-section">

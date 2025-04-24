@@ -17,3 +17,7 @@ headers.forEach((header) => {
     }
   });
 });
+
+const toggleMenu = () => {
+  document.querySelector('.navigation-list').classList.toggle('active');
+}
